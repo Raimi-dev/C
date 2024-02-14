@@ -12,10 +12,10 @@ int potencia(int x, int y){
 int main (){
 	int y, x;
 	
-	printf("Digite o valor parax e y");
+	printf("Digite o valor para x e y:");
 	scanf("%d%d", &x, &y);
 	
-	printf("Resultado da potenciação:", x, y, potencia(x, y));
+	printf("Resultado da potencia de base %d e expoente %d: %d\n", x, y, potencia(x, y));
 	
 	return 0;
 }
